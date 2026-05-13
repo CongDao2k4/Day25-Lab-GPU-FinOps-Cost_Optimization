@@ -112,6 +112,7 @@ Trong **Ubuntu terminal** (WSL):
 
 ```bash
 cd ~/gpu-finops-lab
+sed -i 's/\r$//' run-linux.sh
 ./run-linux.sh start
 ```
 
